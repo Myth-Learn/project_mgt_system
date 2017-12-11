@@ -18,7 +18,7 @@ class CreateRegionsTable extends Migration
             $table->char('country_code', 2);
             $table->boolean('active')->default(1);
             $table->string('name');
-            $table->string('slug');
+            $table->text('slug');
 
             $table->foreign('country_code')->references('code')->on('countries')->onDelete('cascade');
         });
