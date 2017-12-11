@@ -38,13 +38,15 @@ return [
     'facebook' => [
         'client_id' => '131132477564241',
         'client_secret' => '623b6054f386d381c57f2aea168d5d6b',
-        'redirect' => 'http://localhost:8000/auth/facebook/callback',
+        'redirect' => 'https://project-mgt-system.herokuapp.com/auth/facebook/callback',
+        //'redirect' => 'http://localhost:8000/auth/facebook/callback',        
     ],
 
     'google' => [
         'client_id' => '222568591180-80hkubmgm4p6rcne0uoho7rj9gsplkdq.apps.googleusercontent.com',
         'client_secret' => 'Fbak_ARYakWsX7TN6_bajFqG',
-        'redirect' => 'http://localhost:8000/auth/google/callback',
+        'redirect' => 'https://project-mgt-system.herokuapp.com/auth/google/callback',
+        //'redirect' => 'http://localhost:8000/auth/google/callback',        
     ],
 
 ];
